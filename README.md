@@ -12,5 +12,5 @@ These files demonstrate how you can write BenchmarkJS tests and compare performa
 
 To integrate Benchmark tests into your component with the ability to compare performance across different YUI version, I recommend the following steps:
 
-1. Take what's in `index.html` but change '<script src="multi.js"></script>' to '<script src="https://raw.github.com/tilomitra/yui-benchmark/master/multi.js"></script>' so you don't have to download `multi.js` into your project. (Optionally, we could keep multi.js in `yui3/src/common/`).
+1. Take what's in `index.html` but change the `multi.js` path from '<script src="multi.js"></script>' to 'https://raw.github.com/tilomitra/yui-benchmark/master/multi.js' so you don't have to download `multi.js` into your project. (Optionally, we could keep multi.js in `yui3/src/common/`).
 2. You'll probably need to change the paths to the other modules so they reflect your project directory structure.
